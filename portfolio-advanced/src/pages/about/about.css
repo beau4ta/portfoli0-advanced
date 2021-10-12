@@ -1,0 +1,191 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section {
+  background-color: whitesmoke;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  border-radius: 20px;
+  border: inset 3px black;
+}
+
+.img-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-img {
+  width: 20rem;
+  padding: 2rem;
+}
+
+.beau-img {
+  width: 20rem;
+  border: inset 2px black;
+  border-radius: 10px;
+}
+
+.about-info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-title {
+  font-size: 5rem;
+  text-align: right;
+}
+
+.info-info {
+  text-align: right;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.link-container {
+  text-align: right;
+}
+
+.linkedIn,
+.gitHub {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  color: rgb(255, 134, 28);
+}
+
+.linkedIn:hover,
+.gitHub:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1539px) {
+  .about-img {
+    width: 10rem;
+  }
+
+  .beau-img {
+    width: 10rem;
+  }
+
+  .about-section{
+      margin: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-img {
+    width: 10rem;
+  }
+
+  .beau-img {
+    width: 10rem;
+  }
+
+  .img-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section {
+    margin: 5rem;
+  }
+
+  .about-info {
+    padding: 0;
+  }
+
+  .info-info {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .info-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .link-container {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .about-img {
+    width: 10rem;
+  }
+
+  .beau-img {
+    width: 10rem;
+  }
+
+  .img-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section {
+    margin: 2rem;
+  }
+
+  .about-info {
+    padding: 0;
+  }
+
+  .info-info {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .info-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .link-container {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-img {
+    width: 7rem;
+  }
+
+  .beau-img {
+    width: 7rem;
+  }
+
+  .img-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section {
+    margin: 1rem;
+  }
+
+  .info-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-info {
+    padding: 0;
+  }
+
+  .info-info {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .link-container {
+    text-align: center;
+  }
+}

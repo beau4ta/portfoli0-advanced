@@ -1,0 +1,48 @@
+.navbar{
+   background-color: transparent;
+   position: relative;
+
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+li{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+li:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    text-shadow: 0px 2px 3px rgb(255, 134, 28);
+}
+
+.App-logo {
+    pointer-events: none;
+    width: 10%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 5s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

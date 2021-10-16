@@ -1,0 +1,46 @@
+.projects{
+    display: flex;
+    overflow: auto;
+}
+
+.proj-container{
+    background-color: whitesmoke;
+    border: double black 2px;
+    border-radius: 10px;
+    margin: 5rem;
+    
+}
+
+.proj-title{
+    text-align: center;
+}
+
+.proj-img{
+    width: 30rem;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.proj-info{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info-btn{
+    text-align: center;
+    padding: 10px;
+}
+
+.link{
+    padding: 10px;
+    color: rgb(255, 134, 28)
+}
+
+.link:hover{
+    color: black;
+}

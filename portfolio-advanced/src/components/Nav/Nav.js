@@ -8,18 +8,18 @@ const Nav = () => {
             <div className='list-container'>
             
             <ul className='ul'>
-            <img src={Logo} className='App-logo'></img>
+            <img src={Logo} alt='logo' className='App-logo'></img>
                 <li>
-                    <a>About</a>
+                    <a href='#about'>About</a>
                 </li>
                 <li>
-                    <a>Projects</a>
+                    <a href='#projects'>Projects</a>
                 </li>
                 <li>
-                    <a>Resume</a>
+                    <a href='#resume'>Resume</a>
                 </li>
                 <li>
-                    <a>Contact</a>
+                    <a href='#contact'>Contact</a>
                 </li>
             </ul>
             </div>

@@ -1,0 +1,21 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+}
+
+.background{
+    width: 100%;
+}
+
+.welcome{
+    font-size: 7rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20rem;
+    margin-top: 15rem;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+    z-index: 3;
+    position: relative;
+}

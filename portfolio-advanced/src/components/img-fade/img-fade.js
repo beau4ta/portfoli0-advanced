@@ -1,16 +1,18 @@
-import React from 'react';
-import { useSpring, animated } from 'react-spring';
+import React, { useEffect } from 'react';
 import Beau from '../../pages/about/beau.JPG';
 import '../../pages/about/about.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Img = () => {
-    const styles = useSpring({ from: { opacity: 0 }, to: { opacity: 1 }, delay: 1000 })
+    useEffect(() => {
+        Aos.init({duration: 3000});
+    }, []);
 
-    return (<animated.div style={styles}>
-        <div>
-            <img src={Beau} className='beau-img' />
+    return (
+        <div className='img-container'>
+            <img data-aos='fade-up' src={Beau} alt='Beau' className='beau-img' />
         </div>
-        </animated.div>
     )
 }
 

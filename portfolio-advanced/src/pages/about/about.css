@@ -59,7 +59,7 @@
 .gitHub {
   padding: 0.3rem;
   font-size: 1.5rem;
-  color: rgb(255, 134, 28);
+  color: rgb(255, 134, 28) !important;
 }
 
 .linkedIn:hover,

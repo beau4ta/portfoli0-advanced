@@ -21,9 +21,11 @@ const About = () => {
                     <div className='about-info'>
                         <h1 data-aos='fade-down' className='info-title'>Hi, I'm Beau Fortier!</h1>
                         <p data-aos='fade-right' className='info-info'>
+                            I am 25 years old and my pronouns are they/them.
                             I am a Software Developer and I graduated from Case Western Reserve University's Coding Bootcamp.
                             Here I built skills such as, HTML, CSS, JavaScript, JQuery, Node,js, React.js, MySQL, and MongoDB.
-                            I am currently employed at Chipotle Mexican Grill as a Service Manager. I have been working there for 4 years and I have climbed my way up the ladder to be in the position I am in.
+                            I am currently employed at Trilogy Education Services as a Teaching Assistant and a Learning Assistant 
+                            where I help students learn and debug their code.
                             I hope you enjoy this interactive portfolio that showcases some of the skills I have learned.
                         </p>
                         <div data-aos='fade-left' className='link-container'>

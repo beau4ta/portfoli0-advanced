@@ -1,13 +1,20 @@
-.navbar{
+.nav{
    background-color: transparent;
    position: relative;
+   justify-content: center;
+  align-items: center;
+}
 
+.list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ul{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
     padding-left: 2rem;
@@ -17,7 +24,7 @@
 li,
 a{
     font-size: 2rem;
-    color: whitesmoke;
+    color: whitesmoke !important;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.3px;
 }

@@ -5,6 +5,7 @@ import Home from './pages/home/home';
 import BG from './bg1.jpeg';
 import React, { useState, useEffect } from 'react';
 import Projects from './pages/projects/projects';
+import { ContactUs } from './pages/contact/contact';
 
 
 function App() {
@@ -23,11 +24,11 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <ContactUs />
       <img 
       src={BG} 
       alt='bg' 
       className='background' 
-      style={{transform: `translateY(${offsetY * 0.5}px)`}}
       />
     </div>
   );

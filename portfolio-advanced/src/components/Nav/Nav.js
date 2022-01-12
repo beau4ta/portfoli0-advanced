@@ -4,7 +4,7 @@ import Logo from '../../bdzlogo.png';
 
 const Nav = () => {
     return(
-        <nav className='navbar'>
+        <nav className='nav'>
             <div className='list-container'>
             
             <ul className='ul'>

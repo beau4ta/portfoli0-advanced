@@ -1,0 +1,33 @@
+.email-container{
+    border: black 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;;
+    background-color: white;
+}
+
+.email-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.name-input,
+.email-input,
+.text-input{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.text-input{
+    margin-bottom: 5px;
+}
+
+.send-btn{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}

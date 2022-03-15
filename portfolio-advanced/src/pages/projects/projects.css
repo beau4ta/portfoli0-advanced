@@ -1,6 +1,9 @@
+.proj-main-container {
+    margin: 20%;
+}
+
 .projects{
     display: flex;
-    justify-content: center;
 }
 
 .carousel-caption{
@@ -50,4 +53,13 @@
 
 .link:hover{
     color: black !important;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.inner-carousel {
+    display: flex;
 }

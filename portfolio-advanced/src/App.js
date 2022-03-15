@@ -25,11 +25,6 @@ function App() {
       <About />
       <Projects />
       <ContactUs />
-      <img 
-      src={BG} 
-      alt='bg' 
-      className='background' 
-      />
     </div>
   );
 }
